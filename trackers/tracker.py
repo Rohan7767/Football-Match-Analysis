@@ -117,7 +117,8 @@ class Tracker:
     def draw_annotations(self, video_frames, tracks):
         output_video_frames = []
         skip_ball_triangle_frames = {
-            60, 72, 73, 75, 79, 81, 89, 127, 135, 136, 142, 143, 149, 150, 155, 156, 157, 158, 162, 163, 164, 184, 185, 186, 188, 189, 190
+            60, 72, 73, 75, 79, 81, 89, 127, 135, 136, 142, 143, 149, 
+            150, 155, 156, 157, 158, 162, 163, 164, 184, 185, 186, 188, 189, 190
         }
         for frame_num, frame in enumerate(video_frames):
             frame = frame.copy()

@@ -1,6 +1,6 @@
 import cv2
 import os
-video_path = 'output_videos/output_video.avi'
+video_path = 'output_videos/tacticam.mp4'
 output_folder = 'frames/Tacticam'
 if not os.path.exists(output_folder):
     os.makedirs(output_folder)
